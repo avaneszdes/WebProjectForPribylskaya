@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Vladislav\AppData\Local\JetBrains\Rider2020.3\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Vladislav\AppData\Local\JetBrains\Rider2020.3\resharper-host\Local\Transient\Rider\v203\SolutionCaches\_WebProjectForPribylskaya.481195031.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Vladislav\RiderProjects\WebProjectForPribylskaya" t="IncludeFlat">
+      <e p="Data" t="IncludeRecursive">
+        <e p="ApplicationContext.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Data.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="net5.0" t="Include">
+              <e p="Data.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="Entityes" t="IncludeRecursive">
+        <e p="AuthOptions.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Entityes.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="net5.0" t="Include">
+              <e p="Entityes.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Role.cs" t="Include" />
+        <e p="User.cs" t="Include" />
+      </e>
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Repositories" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="IUserRepository.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="net5.0" t="Include">
+              <e p="Repositories.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Repositories.csproj" t="IncludeRecursive" />
+        <e p="UserRepository.cs" t="Include" />
+      </e>
+      <e p="WebProjectForPribylskaya" t="IncludeRecursive">
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Controllers" t="Include">
+          <e p="AccountController.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="net5.0" t="Include">
+              <e p="WebProjectForPribylskaya.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Startup.cs" t="Include" />
+        <e p="WebProjectForPribylskaya.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="WebProjectForPribylskaya.sln" t="IncludeFlat" />
+    </e>
+  </component>
+</project>
