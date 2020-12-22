@@ -15,7 +15,7 @@ namespace WebProjectForPribylskaya.Controllers
     {
         private ApplicationContext _applicationContext ;
 
-        public AccountController( ApplicationContext applicationContext)
+        public AccountController(ApplicationContext applicationContext)
         {
             _applicationContext = applicationContext;
             

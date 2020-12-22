@@ -5,24 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ef340b01-1f2c-4ac4-ab03-a31ad7b0fab6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data/ApplicationContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data/Data.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Entityes/AuthOptions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Entityes/Entityes.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Entityes/Role.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Entityes/User.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Repositories/IUserRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Repositories/Repositories.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Repositories/UserRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebProjectForPribylskaya.sln" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebProjectForPribylskaya/Controllers/AccountController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebProjectForPribylskaya/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebProjectForPribylskaya/Properties/launchSettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebProjectForPribylskaya/Startup.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebProjectForPribylskaya/WebProjectForPribylskaya.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebProjectForPribylskaya/appsettings.Development.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebProjectForPribylskaya/appsettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/IUserService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Services.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/UserService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebProjectForPribylskaya/Controllers/HomeController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebProjectForPribylskaya/Views/Home/Index.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebProjectForPribylskaya/Views/Home/SignIn.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebProjectForPribylskaya/Views/Home/SignUp.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebProjectForPribylskaya/WebProjectForPribylskaya.csproj.DotSettings.user" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebProjectForPribylskaya/wwwroot/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.WebProjectForPribylskaya/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebProjectForPribylskaya/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.WebProjectForPribylskaya/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebProjectForPribylskaya/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/ApplicationContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/ApplicationContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Data.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Data.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entityes/Entityes.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Entityes/Entityes.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repositories/IUserRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Repositories/IUserRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repositories/Repositories.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Repositories/Repositories.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repositories/UserRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Repositories/UserRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebProjectForPribylskaya.sln" beforeDir="false" afterPath="$PROJECT_DIR$/WebProjectForPribylskaya.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebProjectForPribylskaya/Controllers/AccountController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebProjectForPribylskaya/Controllers/AccountController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebProjectForPribylskaya/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebProjectForPribylskaya/Properties/launchSettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebProjectForPribylskaya/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebProjectForPribylskaya/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebProjectForPribylskaya/WebProjectForPribylskaya.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/WebProjectForPribylskaya/WebProjectForPribylskaya.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebProjectForPribylskaya/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebProjectForPribylskaya/appsettings.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,16 +39,15 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/63309295-B910-4F23-A894-FEBBE27F9471/6/AuthenticationMiddleware.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/F758DD2F-9E4C-41A0-B7A1-63138D66F75D/A/ServiceProvider.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/C80B499D-ADA7-49E0-A8EE-7A9B1744160B/233/ExceptionDispatchInfo.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/Entityes/Class1.cs" />
       <option value="$PROJECT_DIR$/Data/Class1.cs" />
       <option value="$PROJECT_DIR$/Entityes/Admin.cs" />
-      <option value="$PROJECT_DIR$/WebProjectForPribylskaya/appsettings.json" />
       <option value="$PROJECT_DIR$/Repositories/Class1.cs" />
-      <option value="$PROJECT_DIR$/Repositories/IUserRepository.cs" />
-      <option value="$PROJECT_DIR$/Repositories/UserRepository.cs" />
       <option value="$PROJECT_DIR$/Repositories/IAdminRepository.cs" />
       <option value="$PROJECT_DIR$/Repositories/AdminRepository.cs" />
       <option value="$PROJECT_DIR$/Entityes/Person.cs" />
@@ -51,9 +55,24 @@
       <option value="$PROJECT_DIR$/Entityes/Role.cs" />
       <option value="$PROJECT_DIR$/Entityes/User.cs" />
       <option value="$PROJECT_DIR$/WebProjectForPribylskaya/Controllers/ValuesController.cs" />
+      <option value="$PROJECT_DIR$/WebProjectForPribylskaya/appsettings.json" />
       <option value="$PROJECT_DIR$/Data/ApplicationContext.cs" />
-      <option value="$PROJECT_DIR$/WebProjectForPribylskaya/Startup.cs" />
+      <option value="$PROJECT_DIR$/Repositories/IUserRepository.cs" />
+      <option value="$PROJECT_DIR$/Services/Class1.cs" />
+      <option value="$PROJECT_DIR$/Services/IUserService.cs" />
+      <option value="$PROJECT_DIR$/WebProjectForPribylskaya/Controllers/UserController.cs" />
+      <option value="$PROJECT_DIR$/WebProjectForPribylskaya/Views/Home.cshtml" />
+      <option value="$PROJECT_DIR$/WebProjectForPribylskaya/Views/Home/Index.html" />
+      <option value="$PROJECT_DIR$/Repositories/UserRepository.cs" />
       <option value="$PROJECT_DIR$/WebProjectForPribylskaya/Controllers/AccountController.cs" />
+      <option value="$PROJECT_DIR$/WebProjectForPribylskaya/Properties/launchSettings.json" />
+      <option value="$PROJECT_DIR$/Services/UserService.cs" />
+      <option value="$PROJECT_DIR$/WebProjectForPribylskaya/Views/SignIn.cshtml" />
+      <option value="$PROJECT_DIR$/WebProjectForPribylskaya/Views/Home/Index.cshtml" />
+      <option value="$PROJECT_DIR$/WebProjectForPribylskaya/Startup.cs" />
+      <option value="$PROJECT_DIR$/WebProjectForPribylskaya/Views/Home/SignUp.cshtml" />
+      <option value="$PROJECT_DIR$/WebProjectForPribylskaya/Controllers/HomeController.cs" />
+      <option value="$PROJECT_DIR$/WebProjectForPribylskaya/Views/Home/SignIn.cshtml" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1lvBt9K96lam2Dmw0aml90kILEd" />
@@ -66,11 +85,16 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34991798" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.5671723" />
     <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.0" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="XThreadsFramesViewSplitterKey" value="0.3088803" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="RiderIisExpressOptionsPageId" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected=".NET Launch Settings Profile.WebProjectForPribylskaya">
@@ -113,8 +137,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1608467897524</updated>
-      <workItem from="1608467922676" duration="9229000" />
+      <workItem from="1608467922676" duration="31572000" />
+      <workItem from="1608578396118" duration="6241000" />
     </task>
+    <task id="LOCAL-00001" summary="add authentication">
+      <created>1608496213018</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1608496213018</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,9 +163,35 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="add authentication" />
+    <option name="LAST_COMMIT_MESSAGE" value="add authentication" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/WebProjectForPribylskaya/Controllers/HomeController.cs</url>
+          <line>25</line>
+          <properties documentPath="C:\Users\Vladislav\RiderProjects\WebProjectForPribylskaya\WebProjectForPribylskaya\Controllers\HomeController.cs" initialLine="25" containingFunctionPresentation="method 'SignIn'">
+            <startOffsets>
+              <option value="564" />
+            </startOffsets>
+            <endOffsets>
+              <option value="578" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
